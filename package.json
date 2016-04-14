@@ -1,7 +1,7 @@
 {
-  "name": "PIsCO: A Performance Indicators Framework for COllection of Biological Resource Metrics",
+  "name": "PIsCO",
   "version": "0.1.0",
-  "description": "Framework Infrastructure to collect, install and execute bioilogical resouce metrics",
+  "description": "A Performance Indicators Framework for COllection of Biological Resource Metrics",
   "author": "Haydee Artaza",
   "contributors": [
     {
