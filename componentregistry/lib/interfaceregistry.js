@@ -1,4 +1,5 @@
-var libxslt = require('libxslt')
+var fs = require('fs')
+	,libxslt = require('libxslt')
 	,libxmljs = require('libxmljs')
 	,schemaconfig = require ('../config/configschema');
 
