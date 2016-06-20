@@ -10,7 +10,7 @@ var IR = require('../lib/interfacemonitoring')
 var app = express();
 app.use(express.static("../public")); //put accesible public directory and its sub directories
 app.set('views',  '../views'); //put accesible views
-app.set('compoonents',  '../components'); //put accesible components
+
 
 var hbs = require('hbs');//Handlebars
 app.set('view engine', 'html'); //we can tell Express to treat HTML files as dynamic by using the "view engine"
