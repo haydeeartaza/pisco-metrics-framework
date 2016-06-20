@@ -64,9 +64,4 @@ fs.writeFile(xhtml , result, encoding, function (err) {
 
 }
 
-//fs.readFile('../public/register.html', function(err, page) {
-//        res.writeHead(200, {'Content-Type': 'text/html'});
-//        res.write(page);
-//        res.end();
-//    });
 
