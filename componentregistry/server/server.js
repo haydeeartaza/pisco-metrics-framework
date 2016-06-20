@@ -1,5 +1,4 @@
-var fs = require('fs')
-	,express = require('express')
+var express = require('express')
 	,bodyParser = require('body-parser');
 var IR = require('../lib/interfaceregistry')
 	,interfaceregistry = new IR();
@@ -22,7 +21,7 @@ app.use(bodyParser.urlencoded({     // to support URL-encoded bodies
 
 //***Show all the components registered and let us to register a new component**/
 app.get('/register', function(req, res) {
-	createregistryHTML(); // this function is provisional
+	interfaceregistry.createregistryHTML();
 	res.render('registry.html');
 });
 
@@ -38,30 +37,5 @@ app.post('/registercomponent', function(req, res) {
 app.listen(8082, function() {
   console.log('Server running at http://127.0.0.1:8082');
 })
-
-
-function createregistryHTML(){
-
-var libxslt = require('libxslt')
-	,libxmljs = require('libxmljs')
-	,schemaconfig = require ('../config/configschema');
-
-var xhtml = schemaconfig.SCHEMAHTML;
-var encoding = 'utf8';
-
-var docSource = fs.readFileSync(schemaconfig.SCHEMAXML, encoding);  
-var stylesheetSource = fs.readFileSync(schemaconfig.SCHEMAXSL, encoding);
-
-var stylesheet = libxslt.parse(stylesheetSource);
-var result = stylesheet.apply(docSource);
-
-//console.log(result);
-
-fs.writeFile(xhtml , result, encoding, function (err) {
-			if (err) return console.log(err);
-			else {console.log('data save into > ' + xhtml);}
-});
-
-}
 
 
