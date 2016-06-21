@@ -26,11 +26,11 @@ This framework consists of 3 different elements that work together:
 
 ## Documentation
 
-1. [the INSTALL document] https://github.com/haydeeartaza/pisco-metrics-framework/tree/master/
-2. [SPECIFICATION document] https://github.com/haydeeartaza/pisco-metrics-framework/tree/master/
-3. [METRICS specification document] https://github.com/haydeeartaza/pisco-metrics-framework/tree/master/
+1. [the INSTALL document] (https://github.com/haydeeartaza/pisco-metrics-framework/tree/master/)
+2. [SPECIFICATION document] (https://github.com/haydeeartaza/pisco-metrics-framework/tree/master/)
+3. [METRICS specification document] (https://github.com/haydeeartaza/pisco-metrics-framework/tree/master/)
 4. METRICS examples:
- * [Citation] https://github.com/haydeeartaza/metrics-module-pageviews 
- * [Page Views] https://github.com/haydeeartaza/metrics-module-pageviews
- * [Social Media] https://github.com/haydeeartaza/metrics-module-pageviews
+ * [Citation] (https://github.com/haydeeartaza/metrics-module-pageviews) 
+ * [Page Views] (https://github.com/haydeeartaza/metrics-module-pageviews)
+ * [Social Media] (https://github.com/haydeeartaza/metrics-module-pageviews)
 
