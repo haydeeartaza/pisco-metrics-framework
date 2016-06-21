@@ -6,9 +6,9 @@ PIsco is a Node.js JavaScript framework for collection, registration and sharing
 
 This framework consists of 3 different elements that work together:
 
-1. **Component**. defines the metric standard definition (common metadata into  XML schema), and metric functionality (following a basic structure: code, documentation, guidelines, and examples, stored into the source code manager).
-2. **Components Registry**. registers the component metadata into a registry to make them available for use. The component metadata will be used to install this component into the framework repository.
-3. **Data and Monitoring Repository**. installs, executes components and collects data from the component execution.  Metrics results, generated from each component execution are stored in a Mongodb database and they are able to be used and interpreted.
+1. **Component**. Defines the metric standard definition (common metadata into  XML schema), and metric functionality (following a basic structure: code, documentation, guidelines, and examples, stored into the source code manager).
+2. **Components Registry**. Registers the component metadata into a registry to make them available for use. The component metadata will be used to install this component into the framework repository.
+3. **Data and Monitoring Repository**. Installs, executes components and collects data from the component execution.  Metrics results, generated from each component execution are stored in a Mongodb database and they are able to be used and interpreted.
 
 ## Git
 
