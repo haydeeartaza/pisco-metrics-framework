@@ -26,7 +26,7 @@ var MonitoringInterface = function () {
 
 /**
  * MonitoringInterface module.
- * @module lib/MonitoriingInterface
+ * @module lib/MonitoringInterface
  */
 
 MonitoringInterface.prototype ={
